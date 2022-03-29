@@ -12,13 +12,13 @@ If you feel depressed, bored or need some advice, then checkout this project
 
 #### Get Random Advice
 
-```http
+```bash
   GET https://api.adviceslip.com/advice
 ```
 
 #### Get Advice by id
 
-```http
+```bash
   GET https://api.adviceslip.com/advice/{slip_id}
 ```
 
