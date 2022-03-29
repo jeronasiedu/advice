@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Primary Meta Tags -->
+    <title>Advice Generator App</title>
+    <meta name="title" content="Advice Generator App" />
+    <meta
+      name="description"
+      content="We care about your mental & emotionally stability. Are you depressed? Get some advice today"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://jeronadvice.netlify.app/" />
+    <meta property="og:title" content="Advice Generator App" />
+    <meta
+      property="og:description"
+      content="We care about your mental & emotionally stability. Are you depressed? Get some advice today"
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1518888154325-928734ae11b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://jeronadvice.netlify.app/" />
+    <meta property="twitter:title" content="Advice Generator App" />
+    <meta
+      property="twitter:description"
+      content="We care about your mental & emotionally stability. Are you depressed? Get some advice today"
+    />
+    <meta
+      property="twitter:image"
+      content="https://images.unsplash.com/photo-1518888154325-928734ae11b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512"
+        class="quote left"
+      >
+        <path
+          d="M96 224C84.72 224 74.05 226.3 64 229.9V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32S145.7 96 128 96C57.42 96 0 153.4 0 224v96c0 53.02 42.98 96 96 96s96-42.98 96-96S149 224 96 224zM352 224c-11.28 0-21.95 2.305-32 5.879V224c0-35.3 28.7-64 64-64c17.67 0 32-14.33 32-32s-14.33-32-32-32c-70.58 0-128 57.42-128 128v96c0 53.02 42.98 96 96 96s96-42.98 96-96S405 224 352 224z"
+        />
+      </svg>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 448 512"
+        class="quote right"
+      >
+        <path
+          d="M96 96C42.98 96 0 138.1 0 192s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192C192 138.1 149 96 96 96zM448 192c0-53.02-42.98-96-96-96s-96 42.98-96 96s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192z"
+        />
+      </svg>
+      <small class="id"> ADVICE #149 </small>
+      <p class="text">
+        As things get closer to the light, the shadows get darker.
+      </p>
+      <!-- spinner -->
+      <div class="spinner-container">
+        <div class="spinner"></div>
+      </div>
+      <div class="divider">
+        <svg
+          width="444"
+          height="16"
+          xmlns="http://www.w3.org/2000/svg"
+          class="desktop-divider"
+        >
+          <g fill="none" fill-rule="evenodd">
+            <path fill="#4F5D74" d="M0 8h196v1H0zM248 8h196v1H248z" />
+            <g transform="translate(212)" fill="#CEE3E9">
+              <rect width="6" height="16" rx="3" />
+              <rect x="14" width="6" height="16" rx="3" />
+            </g>
+          </g>
+        </svg>
+        <svg
+          width="295"
+          height="16"
+          xmlns="http://www.w3.org/2000/svg"
+          class="mobile-divider"
+        >
+          <g fill="none" fill-rule="evenodd">
+            <path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z" />
+            <g transform="translate(138)" fill="#CEE3E9">
+              <rect width="6" height="16" rx="3" />
+              <rect x="14" width="6" height="16" rx="3" />
+            </g>
+          </g>
+        </svg>
+      </div>
+      <button class="get-advice">
+        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20 0H4a4.005 4.005 0 0 0-4 4v16a4.005 4.005 0 0 0 4 4h16a4.005 4.005 0 0 0 4-4V4a4.005 4.005 0 0 0-4-4ZM7.5 18a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm4.5 4.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Zm0-9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3Z"
+            fill="#202733"
+          />
+        </svg>
+      </button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
