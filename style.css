@@ -42,10 +42,10 @@ body {
   text-align: center;
 }
 .quote {
-  width: 3rem;
+  width: 2rem;
   position: absolute;
   top: 0;
-  fill: var(--neon-green);
+  fill: var(--grayish-blue);
 }
 .quote.left {
   left: 0.3rem;
@@ -83,6 +83,14 @@ button:hover {
   }
   .divider .mobile-divider {
     display: block;
+  }
+}
+@media (max-width: 768px) {
+  button:hover {
+    box-shadow: unset;
+  }
+  button.glow {
+    box-shadow: 0 0 10px 2px var(--neon-green), 0 0 40px 0 var(--neon-green);
   }
 }
 /* SPINNER */
